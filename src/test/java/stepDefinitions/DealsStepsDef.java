@@ -56,10 +56,10 @@ public class DealsStepsDef extends TestBase{
 	}
 	
 	
-//	@After
-//	public void close_the_web_browser() {
-//		logger.info("*************Closing The Web Browser*********************");
-//		driver.quit();
-//	}
+	@After
+	public void close_the_web_browser() {
+		logger.info("*************Closing The Web Browser*********************");
+		driver.quit();
+	}
 
 }

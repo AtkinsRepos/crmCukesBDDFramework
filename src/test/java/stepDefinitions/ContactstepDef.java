@@ -40,10 +40,10 @@ public class ContactstepDef extends TestBase {
 		logger.info("************* Clicked of SAVE Button*********************");
 	}
 
-//	@Then("^close the web browser$")
-//	public void close_the_web_browser() {
-//		driver.quit();
-//
-//	}
+	@Then("^close the web browser$")
+	public void close_the_web_browser() {
+		driver.quit();
+
+	}
 
 }

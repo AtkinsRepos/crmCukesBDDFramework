@@ -66,10 +66,10 @@ public class LoginStepDef extends TestBase {
 		driver.quit();
 	}
 	
-//@AfterMethod
-//public void tearDown() {
-//	driver.close();
-//}
+@AfterMethod
+public void tearDown() {
+	driver.close();
+}
 
 
 }
